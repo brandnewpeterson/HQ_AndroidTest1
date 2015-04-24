@@ -34,6 +34,6 @@ You'll find a signed, sideloadable APK in /app/app-release.apk.
 
 *Man Hours*
 
-This took a while because I had to do it at odd time while on the road and I made quite a lot of changes to my dev process while doing this test. I started using Android Studio for the first time rather than Eclipse -- I'm still getting used to it. I also tried to use some newer SDK constructs such as RecycleView, but found that too much boilerplate code was required for the simpler requirements of this test. 
+This took a while because I had to do it at odd times while on the road, and I made quite a lot of changes to my dev process while doing this test. I started using Android Studio for the first time rather than Eclipse -- I'm still getting used to it. I also tried to use some newer SDK constructs such as RecycleView, but found that too much boilerplate code was required for the simpler requirements of this test. 
 
 Not counting all this configuration time, I'd day this took 6 hours or so. (I'm not the fastest coder, but I do try to be thorough. :) )

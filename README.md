@@ -8,7 +8,7 @@ I explored several options for pre-caching including standard webcache and AppCa
 
 The downloads occur on separate threads and you'll see them asyncronously appear in the standard internal app directory (accessed with the 'getFilesDir()' method).
 
-This mechanisms seemed the fastest and most reliable, and didn't require any 3rd party libraries. It would also be back-compatible with very old Android verions.
+This mechanism seemed the fastest and most reliable, and didn't require any 3rd party libraries. It would also be back-compatible with old Android verions.
 
 *Maintanability*
 
@@ -20,9 +20,9 @@ The 'android:configChanges="orientation|screenSize"' line prevents re-downloadin
 
 *Bonus Questions*
 
-I've elected to make the provided JSON object containing all URLs an asset. But I could also try to download it on the fly each time the app starts -- this was my original design -- and if the file is not accessible fall back to a cahed version. That way, any changes to URLs would be picked up by the app.
+I've elected to make the provided JSON object containing all URLs an asset. But I could also try to download it on the fly each time the app starts -- this was my original design -- and, if the file is not accessible, then fall back to a cached version. That way, any changes to URLs would be picked up by the app.
 
-I've left it as a hardcoded assent for now as the app starts faster.
+I've left it as a hardcoded asset for now as the app starts faster.
 
 As for starting an Android app from an HTML link, this would be possible via an Intent:
 
@@ -34,12 +34,6 @@ You'll find a signed, sideloadable APK /app/app-release.apk.
 
 *Man Hours*
 
-This took a while because I made quite a lot of changes to my dev process while doing this test. I started using Android Studio for the first time rather than Eclipse. I also tried to use some newer SDK constructs such as RecycleView, but found that too much boilerplate code was required for the simplere requirements of this test. 
+This took a while because I had to do it at odd time while on the road and I made quite a lot of changes to my dev process while doing this test. I started using Android Studio for the first time rather than Eclipse -- I'm still getting used to it. I also tried to use some newer SDK constructs such as RecycleView, but found that too much boilerplate code was required for the simpler requirements of this test. 
 
 Not counting all this configuration time, I'd day this took 6 hours or so. (I'm not the fastest coder, but I do try to be thorough. :) )
-
-
-
-
-
-

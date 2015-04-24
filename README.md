@@ -30,7 +30,7 @@ http://stackoverflow.com/questions/3469908/make-a-link-in-the-android-browser-st
 
 *APK*
 
-You'll find a signed, sideloadable APK /app/app-release.apk.
+You'll find a signed, sideloadable APK in /app/app-release.apk.
 
 *Man Hours*
 

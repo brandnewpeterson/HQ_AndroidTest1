@@ -12,7 +12,7 @@ This mechanism seemed the fastest and most reliable, and didn't require any 3rd 
 
 *Maintanability*
 
-I used fragments to keep things modular -- just use the back button to return to the ListView. The DownloadHelper class became a bit of a catchall, but helped keep things less cluttered in the main classes.
+I used fragments to keep things modular -- just use the back button to return to the ListView from each WebView. The DownloadHelper class became a bit of a catchall, but helped keep things less cluttered in the main classes.
 
 *Life Cycle Flow*
 
